@@ -7,8 +7,8 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |key, item|
     if item == name
       return item
-    binding.pry
     end
+      binding.pry
   end
 end
 
