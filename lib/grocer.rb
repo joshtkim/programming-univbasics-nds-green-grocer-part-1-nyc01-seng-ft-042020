@@ -4,10 +4,11 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
-  collection.each do |item|
-    if item == name
+  collection.each do |key, item|
+    item collection.each do |hash|
+    if hash == name
 
-      return name
+      return item
 
     end
   end
