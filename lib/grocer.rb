@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   output = {}
   cart.each do |item|
-    item_name = item.keys[0]
+    item_name = item.key[0]
     if output[item_name]
       output[item_name][:count] += 1
     else
