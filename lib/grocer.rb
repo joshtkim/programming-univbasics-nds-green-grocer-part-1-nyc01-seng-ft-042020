@@ -7,9 +7,8 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |key, item|
     item collection.each do |hash|
     if hash == name
-
-      return item
     end
+      return item
     binding.pry
     end
   end
