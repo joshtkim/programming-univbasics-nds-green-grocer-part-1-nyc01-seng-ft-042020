@@ -5,9 +5,8 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   collection.each do |item|
-    if item != name
-      return nil
-    else return name
+    if item == name
+      return collection[:name]
     end
   end
 end
