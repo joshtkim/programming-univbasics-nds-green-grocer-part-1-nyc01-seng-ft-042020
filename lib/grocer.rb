@@ -7,7 +7,7 @@ def find_item_by_name_in_collection(name, collection)
   index = 0
 
   collection.each do |item|
-    return grocery_item if grocery_item[:item] == name
+    return item if grocery_item[:item] == name
     index += 1
   end
   nil
