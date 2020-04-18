@@ -10,7 +10,6 @@ def find_item_by_name_in_collection(name, collection)
       return collection[1]
 
     end
-        binding.pry
   end
 end
 
