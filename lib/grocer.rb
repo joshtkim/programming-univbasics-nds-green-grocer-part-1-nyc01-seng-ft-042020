@@ -8,7 +8,7 @@ def find_item_by_name_in_collection(name, collection)
     until item == name
       return nil
     else
-      return item
+      return name
     end
       binding.pry
   end
