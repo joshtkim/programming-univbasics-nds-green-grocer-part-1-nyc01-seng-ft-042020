@@ -7,7 +7,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     if item == name
 
-      return collection{1}
+      return name
 
     end
   end
